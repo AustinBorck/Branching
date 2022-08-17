@@ -1,6 +1,7 @@
 ## Git and Git Branching Cheat Sheet
 
 Categories of git commands and practicing with branching.
+Practice with merging and merge conflicts.
 ### Basic commands
 * `git init` - initialize current directory with repository
 * `git add .` - add all new or changed files in the current directory to git index, staging them for commit
@@ -11,6 +12,7 @@ Categories of git commands and practicing with branching.
 * `git log` - list commmit history
 * `git log --oneline` - list commit history (compact)
 * `git config -l` - list local git configuration settings
+<<<<<<< HEAD
 
 ### Branch commands
 * `git branch` - list local branches highlight current branch
@@ -26,3 +28,5 @@ Categories of git commands and practicing with branching.
 ### Other commands
 * `git help` - list git subcommands and options
 * `git config --help` - show options for `git config`
+=======
+>>>>>>> d822b83ce7a4bbc19d012a010898dc61e6ca4a13
